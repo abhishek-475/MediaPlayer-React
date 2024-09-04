@@ -25,31 +25,31 @@ export const deleteCategory = async (id) => {
 };
 
 export const addHistory = async (data) => {
-  return await axios.post("http://localhost:3000/History", data);
+  return await axios.post(`${base_url}/History`, data);
 };
 
 export const getHistory = async () => {
-  return await axios.get("http://localhost:3000/History");
+  return await axios.get(`${base_url}/History`);
 };
 
 export const deleteHistory = async (id) => {
-  return await axios.delete(`http://localhost:3000/History/${id}`);
+  return await axios.delete(`${base_url}/History/${id}`);
 };
 
 export const updateCategory = async (id, data) => {
-  return await axios.put(`http://localhost:3000/Category/${id}`, data);
+  return await axios.put(`${base_url}/Category/${id}`, data);
 };
 
 export const checkEmail = async (email) => {
-  return await axios.get(`http://localhost:3000/Users?email=${email}`);
+  return await axios.get(`${base_url}/Users?email=${email}`);
 };
 
 export const registerEmail = async (data) => {
-  return await axios.post(`http://localhost:3000/Users`, data);
+  return await axios.post(`${base_url}/Users`, data);
 };
 
 export const getLogin = async (email, password) => {
   return await axios.get(
-    `http://localhost:3000/Users?email=${email}&password=${password}`
+    `${base_url}/Users?email=${email}&password=${password}`
   );
 };
