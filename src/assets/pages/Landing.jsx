@@ -24,7 +24,7 @@ function Landing() {
               vitae excepturi.
             </p>
             <div className="d-grid">
-              <Link to={"/home"} className="btn btn-success">
+              <Link to={"/login"} className="btn btn-success">
                 Let's Go
               </Link>
             </div>
@@ -92,8 +92,16 @@ function Landing() {
       <div className="p-5">
         <Row>
           <Col className="p-5" sm={12} md={6}>
-          <h4>Simple And Faster</h4>
-          <p style={{ textAlign: "justify" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h4>Simple And Faster</h4>
+            <p style={{ textAlign: "justify" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </Col>
           <Col className="p-5" sm={12} md={6}>
             <iframe

@@ -15,3 +15,17 @@ MEDIA PLAYER
  npm i react-bootstrap bootstrap
 
  -> bootswatch.com -> download and import theme to app.jsx
+
+
+
+ ------------------ Session storage and Local storage -------------------------
+
+ both are smililar storage provided by browser
+ - can store data in string format specifically in both 
+ - local storage data remains there if it is not cleared , but Session storage data get removed automatically after a specific time
+- data storage and access are similar in implementation in case of both 
+-local storage & session storage are predefinedjs objects that used for handling both storages
+
+Local storage:
+- local storage.
+ 

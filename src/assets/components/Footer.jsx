@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <div className="bg-secondary container-fluid " >
+      <div className="bg-dark container-fluid " >
         <Row className="p-5">
           <Col sm={12} md={5}>
             <h3>MediaPlayer 2024</h3>
